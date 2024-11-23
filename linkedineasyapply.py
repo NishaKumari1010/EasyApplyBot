@@ -161,7 +161,8 @@ class LinkedinEasyApply:
             raise Exception("Nothing to do here, moving forward...")
 
         try:
-            job_results = self.browser.find_element(By.CLASS_NAME, "jobs-search-results-list")
+            # job_results = self.browser.find_element(By.CLASS_NAME, "jobs-search-results-list")
+            job_results = self.browser.find_element(By.CLASS_NAME, "gJglEZPRfVcAesXVXEBcfixvlAwFEHyUg")
             self.scroll_slow(job_results)
             self.scroll_slow(job_results, step=300, reverse=True)
 
