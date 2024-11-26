@@ -4,3 +4,5 @@
 # Pycharm
 .idea
 
+/output.csv
+/failed.csv
